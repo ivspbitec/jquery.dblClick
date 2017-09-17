@@ -14,6 +14,9 @@ There is an error when the click event is triggered twice when double-clicking, 
 jQuery 1.8+
 
 ## Example
+
+<script async src="//jsfiddle.net/iv_spbitec_ru/72974p7b/embed/"></script>
+
 ```javascript
    $('.button').dblClick(function(e){
       click_function.apply(this); 
