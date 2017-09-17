@@ -26,7 +26,7 @@
                touchTimeout=setTimeout( function(){
                   if($.isFunction(clickCallback)) clickCallback.call(_t,e);       
                   touchTimeout = false;
-               },500);
+               },300);
             }          
          });
       });
