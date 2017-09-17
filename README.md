@@ -15,8 +15,6 @@ jQuery 1.8+
 
 ## Example
 
-<script async src="//jsfiddle.net/iv_spbitec_ru/72974p7b/embed/"></script>
-
 ```javascript
    $('.button').dblClick(function(e){
       click_function.apply(this); 
@@ -24,3 +22,5 @@ jQuery 1.8+
       dblclick_function.click();
    })
 ```
+## Demo
+https://jsfiddle.net/iv_spbitec_ru/72974p7b/
