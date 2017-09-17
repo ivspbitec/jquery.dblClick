@@ -1,5 +1,13 @@
 # jquery.dblClick
 Provide click or dblclick callback function
+1.0
+Internet technologies ltd. 2017
+info@spbitec.ru
+http://spbitec.ru/
+
+## Description
+
+There is an error when the click event is triggered twice when double-clicking, we solved the problem by creating a small plug-in
 
 ## Dependencies
 
