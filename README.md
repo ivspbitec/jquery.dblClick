@@ -1,14 +1,15 @@
 # jquery.dblClick
 Provide click or dblclick callback function
 
-##Dependencies
+## Dependencies
 
 jQuery
 
-##Example
-''
+## Example
+```javascript
    $('.dnt_element_img').dblClick(function(e){
       next_item.apply(this); 
    },function(e){
       $('.ad_rating_plus').click();
    })
+```
