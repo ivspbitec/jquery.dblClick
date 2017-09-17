@@ -1,4 +1,15 @@
 
+// jQuery.dblclick
+// 1.0
+// Internet technologies ltd. 2017
+// info@spbitec.ru
+// http://spbitec.ru/
+
+// Dependencies
+// jQuery 1.8+
+
+// Performs callbak functions depending on the type of the click - double click or single click separately
+
 (function($) {
    $.fn.dblClick = function(clickCallback,dblClickCallback){
       return this.each(function(){
