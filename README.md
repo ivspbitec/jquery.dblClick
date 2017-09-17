@@ -3,13 +3,13 @@ Provide click or dblclick callback function
 
 ## Dependencies
 
-jQuery
+jQuery 1.8+
 
 ## Example
 ```javascript
-   $('.dnt_element_img').dblClick(function(e){
-      next_item.apply(this); 
+   $('.button').dblClick(function(e){
+      click_function.apply(this); 
    },function(e){
-      $('.ad_rating_plus').click();
+      dblclick_function.click();
    })
 ```
